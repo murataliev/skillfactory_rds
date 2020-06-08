@@ -1,0 +1,13 @@
+This was my first ever EDA (exploratory data analysis), performed during the data science course by SkillFactory. The legend was that we have a UNICEF dataset with the results of math exams and living conditions of students. 
+
+We needed to find out how living conditions affect students academic performance. This was necessary in order to identify at-risk students at an early stage. After that we could build an ML model to predict exam results for each student, depending on their living conditions.
+
+Let's follow the actions taken during the analysis:
+1. We initialized necessary libraries, set visualization conditions and loaded the dataset.
+2. We improved readability of the data and calculated the number of unique values for each variable. It became clear that we were dealing with a large number of categorical features (both object and int/float) and several continuous ones.
+3. We checked the data for missing values and removed the missing values from the target variable. Then we checked the data for duplicates and found out that there are no duplicates. 
+4. After processing the data, we built histograms for all features in the dataset. Using histograms, we evaluated distributions, identified and corrected a couple misspeled values. 
+5. We defined a function for detecting outliers and applied it to numeric features. There were not many outliers, but we still widen the range to save some values.
+6. After that, we created a correlation matrix, found a lot of positive and inverse correlations, identified numeric variables that correlate with the target variable, and removed some of the columns that do not correlate with it directly.
+7. We created boxplots for object features and tried to guess which ones might affect the target variable. 
+8. To make sure that we were right, we tested our hypotheses using the T-test. Some of our hypotheses were correct, so we removed columns, which doesn't affect the target variable.
