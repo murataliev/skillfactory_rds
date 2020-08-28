@@ -1,1 +1,9 @@
-This was my first experience developing a mathematical model for data prediction, which I received in the Data Science course from SkillFactory. The legend was that we have a TripAdvisor dataset with EU-based restaurants. TA has "dishonest" restaurants which artificially inflate their rating. One way to find scammers is to build a model that predicts the restaurant's rating. If the model's forecasts are vastly different from the actual result, it is possible that the restaurant is not playing fair.
+This was my first experience developing a mathematical model for data prediction, which I received in the Data Science course from SkillFactory. 
+
+The legend was that we have a TripAdvisor dataset with EU-based restaurants. 
+
+TA has "dishonest" restaurants which artificially inflate their rating. 
+
+One way to find scammers is to build a model that predicts the restaurant's rating. 
+
+If the model's forecasts are vastly different from the actual result, it is possible that the restaurant is not playing fair.
