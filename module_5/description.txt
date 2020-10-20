@@ -1,0 +1,8 @@
+This was my first experience using a logistic regression for classification purpose, 
+which I have done in the Data Science course from SkillFactory. 
+
+The legend was that we have a dataset for credit scoring. 
+
+The task was to build a model for predicting the probability of default of secondary clients. 
+
+The development time was limited to 48 hours.
