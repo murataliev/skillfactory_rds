@@ -1,0 +1,3 @@
+This was my first experience of direct interaction with neural networks, which I received in the Data Science course from SkillFactory. 
+The legend was that we had a dataset with photos of cars from 10 categories. 
+The task was to select, customize and fine-tune the pre-trained SOTA model for the most accurate category projections.
